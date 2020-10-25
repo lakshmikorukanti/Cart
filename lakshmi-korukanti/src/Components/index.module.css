@@ -1,0 +1,122 @@
+.logoImg {
+  height: 60px;
+  flex: 1;
+  padding: 0px 20px;
+}
+.linkhover:hover {
+  font-size: x-large;
+  
+}
+
+.links {
+  flex: 1px;
+  padding: 0px 50px;
+  text-decoration: none;
+}
+.Advertisment {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+}
+.products {
+  display: flex;
+  padding: 20px;
+  margin: 50px 100px;
+}
+.card {
+  width: 20rem;
+  text-align: center;
+  padding: 60px;
+}
+.cart {
+  height: 50px;
+  width: 50px;
+  flex: 1px;
+  padding: 0px 10px;
+  margin-bottom: -10px;
+}
+.navbar {
+  padding: 10px;
+  display: flex;
+  margin: 0px;
+  margin-top: -15px;
+  background-color: black;
+}
+.navbar * {
+  flex: 1px;
+}
+.home {
+  background-image: url("https://cdn.pixabay.com/photo/2015/10/12/15/18/store-984393_960_720.jpg");
+  margin-bottom: "29%";
+  height: 490px;
+  text-align: center;
+  color: white;
+}
+h4 {
+  color: white;
+}
+Link {
+  text-decoration: none;
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-bottom: 1.8%;
+  margin-left: 18%;
+}
+
+.cardContainer .card {
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  border-radius: 3%;
+  border: solid 1px #f2f2f2;
+  margin: 2%;
+}
+
+.cardContainer .card .cardBody {
+  padding: 10px;
+}
+
+.cardContainer .card img.cardImg {
+  border-radius: 3%;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+.btn {
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: grey;
+  color: white;
+}
+.loginButton {
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  margin-left: 47%;
+  border: none;
+  background-color: grey;
+  color: white;
+}
+.loginButton:hover {
+  background-color: darkblue;
+}
+.btn:hover {
+  background-color: red;
+}
+.cost {
+  font-size: large;
+  font-weight: lighter;
+  text-align: center;
+}
